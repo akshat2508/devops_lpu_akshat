@@ -3,7 +3,7 @@
 # we will automate the build (using git)
 # we will deploy it to cloud aws ec2 
 
-from flask import flask 
+from flask import Flask 
 
 app = flask(__name__)
 
